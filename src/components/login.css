@@ -1,0 +1,109 @@
+.login,
+.sinup,
+.profile,
+.updateProfile {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  user-select: none;
+}
+
+.loginHead,
+.sinupHead,
+.profileHead,
+.updateProfileHead {
+  text-align: center;
+}
+
+.match, .match-green {
+  background-color: #f8ddde;
+  color: #805659;
+  margin: 1.5rem 0 1rem;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.match-green {
+  background-color: #ddf8f3;
+  color: #5e8056;
+}
+
+.loginBody,
+.sinupBody,
+.profileBody,
+.updateProfileBody {
+  margin: 1rem 0 0;
+  display: flex;
+  flex-direction: column;
+}
+/* - - - - DashBoard - - - */
+.userMail {
+  color: #a3a3a3;
+}
+.profileBody .userMail .mail {
+  margin-right: 0.2rem;
+  font-weight: bold;
+  color: black !important;
+}
+.profileBtn {
+  width: 300px;
+}
+
+.profileLogout,
+.updateBtn {
+  display: block;
+  margin-inline: auto;
+  width: 90px;
+}
+/* - - - - DashBoard - - - */
+label:not(:last-child) {
+  margin-bottom: 0.7rem;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  min-width: 325px;
+}
+
+label span {
+  margin-bottom: 0.35rem;
+}
+
+label input {
+  padding: 0.5rem 0.2rem;
+  border-radius: 0.25rem;
+  border: 2px solid #eee;
+  outline: none;
+}
+
+label input:focus {
+  border: 2px solid #4084d6;
+}
+
+.forgotPassword {
+  text-align: center;
+  margin: 1.5rem 0 0.2rem;
+}
+
+.sinUp,
+.update {
+  text-align: center;
+  margin-top: 1rem;
+  user-select: none;
+}
+
+.updateLink {
+  text-decoration: none;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+button:disabled:hover {
+  background-color: #0765d6;
+}
